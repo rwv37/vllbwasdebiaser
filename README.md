@@ -28,6 +28,10 @@ The script does _not_ reorder the table of links, since it's convenient for a Se
 
 As of the time of this writing, the script will _always_ shuffle the answers presented on a given match day/question pair's search page. If you have the script installed but for some specific case you want to see them in lexicographical order, you can do so by disabling the script (from the Greasemonkey menu) and refreshing the page, but it might be nice if the script were to provide a button to sort/shuffle on demand.
 
+## Weighted randomization for selecting match day/question pair
+
+The "Random unhandled question" link currently selects a random match day/question pair with equal weighting (from among all unhandled pairs). It might be nice to instead select with the weighting determined by the number of BWA Searchers who have already submitted suggestions for the pair, so that (for example) a pair that has been handled by two Searchers is more likely to be randomly chosen than a pair that has been looked at by twenty.
+
 ## Settings/options
 
 Currently, you can have any color of Vestertopian Learned League BWA Search Debiaser you want, as long as it's black. It might be nice to have settings/otions for some things; for example, if the above idea of adding a sort/shuffle button were implemented, it would be nice to be able to choose which of sorting and shuffling is the default.
