@@ -43,8 +43,8 @@ SOFTWARE.
 
 // ==UserScript==
 // @name     Vestertopian Learned League BWA Search Debiaser
-// @include  /^https?://learnedleague\.com/bwasearch\.php\??/
-// @version  1.0.0
+// @include  /^https?://(www.)?learnedleague\.com/bwasearch\.php\??/
+// @version  1.0.1
 // @grant    none
 // @run-at   document-end
 // ==/UserScript==
